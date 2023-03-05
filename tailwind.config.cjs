@@ -16,6 +16,9 @@ module.exports = {
         "bodyGrad-1": "hsl(237, 17%, 21%)",
         "bodyGrad-2": "hsl(237, 23%, 32%)",
       },
+      screens: {
+        mobileOrientationLandScape: { raw: "(max-height: 500px)" },
+      },
     },
     fontFamily: {
       overPass: ['"Overpass"', "sans-serif"],
